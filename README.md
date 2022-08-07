@@ -2,7 +2,7 @@
 I have created this simple, classic game.
 It's an implementation of [rock, paper, scissors](https://en.wikipedia.org/wiki/Rock_paper_scissors),that takes user input from the terminal and plays against The computer.  
 
-## Instructions and Algorithm:
+## Instructions and Algorithm
 This project includes several main functions(menu/sign_in/login/user_panel/game) that their explanation is in "How it works", besides the functions `Scoreboard` and `show_stats` are written for show the saved scores and the users scores respectively, also the functions(`empty_string`,`is_defined`,`is_correct`,`increase`) are written for having a clean and user friendly code.  
 
 ## Libraries
@@ -36,7 +36,7 @@ welcome to your account
 ```
 by typing NO.1(`start a game`) ,game panel will print in the terminal, and NO.2(`show your stats`) will print your number of wins and losses and also the win rate ,and by typing NO.3(`logout`) you will go back to menu.
 
-### Game panel:
+### Game panel
 by typing NO.1(start a game) in `user_panel`, firstly you are asked of the score limit of the game
 (Whenever any player reaches that score is the winner and the game is over). The score limit must be an integer otherwise the game panel will be run again.
 
@@ -52,7 +52,7 @@ please choose one number(1/2/3 ?)
 ```
 it also must be an integer and in range 1,2,3 (otherwise the data of the game will be saved and it asks if you want to continue in order to run the game panel again or going back to user_panel), then The computer will choose a random choice between "Rock", "Paper" and "Scissor". The user will be wined or lost and it will be continued until a player reaches the score limit. after that this data will be saved and you will entered back to the user_panel.
 
-### Install & Run:
+### Install & Run
 ```
 git clone https://github.com/parniame/rock-paper-scissors.git
 cd rock-paper-scissors
