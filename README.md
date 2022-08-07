@@ -58,6 +58,7 @@ git clone https://github.com/parniame/rock-paper-scissors.git
 cd rock-paper-scissors
 chmod +x rock_paper_scissors.py
 python3 -m venv .venv
+source .venv/bin/activate
 pip3 install -r requirements.txt
 python3 ./rock_paper_scissors.py
 ```
